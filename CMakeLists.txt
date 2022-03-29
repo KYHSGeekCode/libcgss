@@ -26,3 +26,6 @@ include(cmake/project_postbuild.cmake)
 include(cmake/jni_support.cmake)
 
 add_subdirectory(lib/vgaudio-cpp)
+add_definitions(-w)
+
+
