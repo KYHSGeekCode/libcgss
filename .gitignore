@@ -1,6 +1,8 @@
 .idea
 .vs
 _ReSharper*
-/bin/
+# /bin/
 /build/
 /cmake-build-*/
+*.o
+CMakeFiles/
